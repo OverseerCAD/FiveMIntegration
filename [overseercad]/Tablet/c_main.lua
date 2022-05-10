@@ -1,7 +1,7 @@
 
 Citizen.CreateThread(function()
 	Wait(1000)
-	CadURL("cad", GetConvar("overseercad_cadURL", 'https://overseercad.co.uk/invite?code='..GetConvar("overseercad_invite_code", "INVITE_CODE_HERE")))
+	CadURL("cad", GetConvar("overseercad_cadURL", 'https://overseercad.co.uk/invite/Tablet?code='..GetConvar("overseercad_invite_code", "INVITE_CODE_HERE")))
 end)
 
 function CadURL(module, url)
